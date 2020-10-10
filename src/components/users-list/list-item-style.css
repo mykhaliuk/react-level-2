@@ -1,0 +1,15 @@
+.list--item {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list--item::after {
+  width: 65%;
+  content: '';
+  border-bottom: 1px solid #717a84;
+  position: absolute;
+  bottom: 0;
+  left: 4.5rem;
+}
